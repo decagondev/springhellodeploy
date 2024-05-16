@@ -4,7 +4,7 @@ FROM openjdk:17-jdk-alpine
 # Set the working directory in the container
 WORKDIR /app
 
-# Copy the JAR file to the container
+# Copy my JAR file to the container
 COPY app.jar /app/app.jar
 
 # Expose the port that the Spring Boot application will run on
